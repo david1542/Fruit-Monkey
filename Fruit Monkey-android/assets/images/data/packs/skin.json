@@ -1,0 +1,32 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	default: { file: fonts/arial-15.fnt},
+    font: { file: fonts/font.fnt },
+    cool-font-menu: {file: fonts/cool-font.fnt }
+    },
+com.badlogic.gdx.graphics.Color: {
+	green: { a: 1, b: 0, g: 1, r: 0 },
+	bright-green: { a : 1, b: 0, g: 1, r: 0.24},
+	white: { a: 1, b: 1, g: 1, r: 1 },
+	red: { a: 1, b: 0, g: 0, r: 1 },
+	black: { a: 1, b: 0, g: 0, r: 0 }
+},
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: 		{ font: default, fontColor: white},
+    nice-style-green:    { font: font, fontColor: bright-green},
+    nice-style-default: 	{ font: font, fontColor: white},
+    window-style: {font: cool-font-menu, fontColor: white}
+},
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: { titleFont: font, background: window, titleFontColor: white },
+},
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	sound-on: { up: soundon, down: soundon },
+	sound-off: { up: soundoff, down: soundoff },
+	music-on: { up: musicon, down: musicon },
+	music-off: { up: musicoff, down: musicoff },
+	close: { up: close, down: close },
+	resume: { up: resume, down: resume },
+	quit: { up: quit, down: quit }
+}
+}

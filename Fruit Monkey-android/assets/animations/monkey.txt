@@ -1,0 +1,32 @@
+monkey.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monkeystates
+  rotate: false
+  xy: 420, 2
+  size: 982, 959
+  orig: 982, 959
+  offset: 0, 0
+  index: -1
+monkeywalk
+  rotate: false
+  xy: 216, 2
+  size: 202, 1234
+  orig: 202, 1234
+  offset: 0, 0
+  index: -1
+monkeywalkaway
+  rotate: false
+  xy: 2, 2
+  size: 212, 918
+  orig: 212, 918
+  offset: 0, 0
+  index: -1
+monkey_stand
+  rotate: false
+  xy: 1408, 2
+  size: 280, 336
+  orig: 280, 336
+  offset: 0, 0
+  index: -1

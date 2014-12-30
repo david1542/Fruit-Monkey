@@ -1,0 +1,18 @@
+monkeystates.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+monkey_dead
+  rotate: false
+  xy: 789, 2
+  size: 191, 292
+  orig: 280, 336
+  offset: 40, 23
+  index: -1
+monkey_head
+  rotate: true
+  xy: 2, 2
+  size: 955, 785
+  orig: 1024, 1024
+  offset: 32, 148
+  index: -1
